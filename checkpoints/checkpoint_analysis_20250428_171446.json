@@ -1,0 +1,40 @@
+{
+  "timestamp": "20250428_171446",
+  "stage": "analysis",
+  "detail": "\u041f\u0440\u043e\u0430\u043d\u0430\u043b\u0438\u0437\u0438\u0440\u043e\u0432\u0430\u043d\u044b \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b BIOS",
+  "profile": {
+    "power_limit1": 65,
+    "power_limit2": 81.25,
+    "voltage_offset": 0,
+    "max_temperature": 0.0,
+    "measured_perf_score": 0.0,
+    "cpu_model": "12th Gen Intel(R) Core(TM) i5-12450H",
+    "creation_date": "2025-04-28T17:11:25.866056",
+    "profile_name": "default_profile",
+    "description": "",
+    "is_stable": true,
+    "requires_reboot": false,
+    "bios_parameters": {},
+    "test_history": [],
+    "baseline_results": {
+      "operations_per_second": 11805945.594189681,
+      "max_temperature": 0.05000000000001137,
+      "avg_temperature": 0.05000000000001137,
+      "max_power": 17.264000000000003,
+      "avg_power": 7.977666666666667,
+      "test_duration": 195.13896465301514,
+      "cpu_frequency": 2000.0,
+      "completed": true
+    },
+    "best_results": {
+      "operations_per_second": 11805945.594189681,
+      "max_temperature": 0.05000000000001137,
+      "avg_temperature": 0.05000000000001137,
+      "max_power": 17.264000000000003,
+      "avg_power": 7.977666666666667,
+      "test_duration": 195.13896465301514,
+      "cpu_frequency": 2000.0,
+      "completed": true
+    }
+  }
+}

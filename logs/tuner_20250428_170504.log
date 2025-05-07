@@ -1,0 +1,18 @@
+2025-04-28 17:05:04,931 - INFO - Запуск CPU Profile Tuner
+2025-04-28 17:05:05,233 - INFO - Инициализация HardwareMonitorService
+2025-04-28 17:05:05,310 - INFO - Найдены ACPI датчики температуры
+2025-04-28 17:05:05,312 - WARNING - OpenHardwareMonitor недоступен: <x_wmi: Unexpected COM Error (-2147217394, 'OLE error 0x8004100e', None, None)>
+2025-04-28 17:05:08,007 - INFO - CPU: 12th Gen Intel(R) Core(TM) i5-12450H
+2025-04-28 17:05:08,209 - INFO - Оценка TDP: 65W для 12th Gen Intel(R) Core(TM) i5-12450H
+2025-04-28 17:05:08,210 - ERROR - Ошибка при инициализации сервисов: 'HardwareMonitorService' object has no attribute 'max_temp_session'
+Traceback (most recent call last):
+  File "C:\Users\Professional\Desktop\Утилиты\Тюнер\main_window.py", line 241, in _init_services
+    self.monitor = HardwareMonitorService()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Professional\Desktop\Утилиты\Тюнер\hardware_monitor.py", line 73, in __init__
+    test_data = self.read_cpu_data()
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Professional\Desktop\Утилиты\Тюнер\hardware_monitor.py", line 274, in read_cpu_data
+    if temp > self.max_temp_session:
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'HardwareMonitorService' object has no attribute 'max_temp_session'
